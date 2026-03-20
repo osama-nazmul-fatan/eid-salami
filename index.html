@@ -586,7 +586,7 @@
       chip.innerHTML = `
         <span class="tk-label">BDT</span>
         <span class="tk-val">৳${a.value}</span>
-        ${a.takenBy ? `<span class="taken-by-name"><span class="taken-star">✓</span> ${a.takenBy}</span>` : ""}
+        ${a.takenBy ? `<span class="taken-by-name">✓ Claimed</span>` : ""}
       `;
       grid.appendChild(chip);
     });
